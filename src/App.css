@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #f7f7f7;
+  height: 50px;
+  padding: 5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.side-user-list {
+  border: 1px solid #ccc;
+}
+
+.side-user-list .panel-info {
+  background: #fff;
+  border-color: #ccc;
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px dotted #ccc;
+  cursor: pointer;
+}
+
+.side-user-list .panel-info a:hover {
+  text-decoration: none;
+}
+
+.side-user-list .panel-body {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.side-user-list .panel-info img {
+  max-width: 100px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.side-user-list .user-img {
+  width: 25%;
+  float: left;
+}
+
+.side-user-list .user-details {
+  width: 75%;
+  float: left;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.side-user-list .user-details h3 {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.side-user-list .user-details p {
+  color: #777;
+  font-size: 14px;
+}
+
+.right-user-details {
+  border: 1px solid #ccc;
+}
+
+.right-user-details .form-group {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-user-details .form-group label {
+  text-align: right;
+  font-size: 16px;
+  color: #666;
+  margin-right: 30px;
+  width: 40%;
+}
+
+.right-user-details .form-group h4 {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  width: 60%;
+}
+
+.right-user-details .panel-heading {
+  background: #f7f7f7;
+  border: none;
+  margin: 0px 0px 30px;
+}
+
+.right-user-details .panel {
+  border: none;
+  box-shadow: none;
+}
+
+.side-user-list .input-group {
+  margin: 0px auto;
+  padding: 10px;
+  background: #f7f7f7;
+}
+
+.side-user-list .form-control {
+  height: 38px;
+  text-align: left !important;
+  border-radius: 0 !important;
+  border-right: none;
+}
+
+.side-user-list .input-group-addon {
+  height: 38px;
+  border-radius: 0;
+  background: #90dfaa;
+  color: #fff;
+  border-color: rgb(0, 150, 136);
+}
